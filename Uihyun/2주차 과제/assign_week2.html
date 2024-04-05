@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Maeng Uihyeon</title>
+        <style>
+            form {
+                border: 1px solid black;
+                padding: 2rem;
+                max-width: 500px;
+                width: fit-content;
+                height: fit-content;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>로그인 화면 만들어보기</h1>
+        <form>
+            <label><b>ID</b></label>
+            <br />
+            <input type="text" />
+            <br />
+            <label><b>PASSWORD</b></label>
+            <br />
+            <input type="password" />
+
+            <p>
+                <b>성별</b>
+                <br />
+                <label for="남성">남성</label>
+                <input type="radio" name="gender" value="man" />
+                <label for="여성">여성</label>
+                <input type="radio" name="gender" value="woman" />
+            </p>
+            <p>
+                <b>좋아하는 동물</b>
+                <br />
+                <label for="lion">🦁사자</label>
+                <input type="checkbox" name="animal" value="lion" />
+                <br />
+                <label for="dog">🐶강아지</label>
+                <input type="checkbox" name="animal" value="dog" />
+                <br />
+                <label for="cat">😺고양이</label>
+                <input type="checkbox" name="animal" value="cat" />
+                <br />
+                <label for="penguin">🐧펭귄</label>
+                <input type="checkbox" name="animal" value="penguin" />
+            </p>
+            <input type="submit" value="SUBMIT" />
+        </form>
+        <ol>
+            <li><a href="https://www.instagram.com/" target="_blank">인스타그램</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">페이스북</a></li>
+            <li><a href="https://github.com/" target="_blank">깃허브</a></li>
+        </ol>
+    </body>
+</html>
