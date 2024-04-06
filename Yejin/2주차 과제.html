@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      form {
+        border: 1px solid black;
+        padding: 2rem;
+        max-width: 500px;
+        width: fit-content;
+        height: fit-content;
+      }
+    </style>
+    <title>김예진</title>
+  </head>
+  <body>
+    <h1>로그인 화면 만들어보기</h1>
+    <form action="">
+      <p>
+        <b>ID</b> <br />
+        <input type="text" id="id" />
+      </p>
+      <p>
+        <b>PASSWORD</b> : <br />
+        <input type="password" id="pw" />
+      </p>
+      <table>
+        <tr>
+          <b>성별</b>
+        </tr>
+        <tr>
+          <td>
+            <label for="male">남성</label>
+            <input type="radio" id="male" name="gen" value="male" />
+          </td>
+          <td>
+            <label for="female">여성</label>
+            <input type="radio" id="female" name="gen" value="female" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <tr>
+          <b>좋아하는 동물</b
+          ><br />
+        </tr>
+        <tr>
+          <label for="lion">🦁사자</label>
+          <input type="checkbox" id="lion" name="animal" value="lion" /><br />
+          <label for="dog">🐶강아지</label>
+          <input type="checkbox" id="dog" name="animal" value="dog" /><br />
+          <label for="cat">🐱고양이</label>
+          <input type="checkbox" id="cat" name="animal" value="cat" /><br />
+          <label for="penguin">🐧펭귄</label>
+          <input type="checkbox" id="penguin" name="animal" value="penguin" />
+        </tr>
+      </table>
+
+      <p><input type="submit" value="submit" /></p>
+    </form>
+
+    <ol type="1">
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">인스타그램</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">페이스북</a>
+      </li>
+      <li>
+        <a href="https://github.com/" target="_blank">깃허브</a>
+      </li>
+    </ol>
+  </body>
+</html>
