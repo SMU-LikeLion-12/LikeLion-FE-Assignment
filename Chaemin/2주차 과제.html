@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이채민</title>
+    <style>
+      form {
+        border: 1px solid black;
+        padding: 2rem;
+        max-width: 500px;
+        width: fit-content;
+        height: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>로그인 화면 만들어보기</h1>
+    <form action="">
+      <p>
+        <b>ID</b><br />
+        <input type="text" name="ID" /><br />
+
+        <b>PASSWORD</b> <br />
+        <input type="password" name="PASSWORD" />
+      </p>
+
+      <table>
+        <tr>
+            <td><b>성별</b></td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="male">남성</label>
+            <input type="radio" id="male" name="gen" value="male" />
+          </td>
+          
+          <td>
+            <label for="female">여성</label>
+            <input type="radio" id="female" name="gen" value="female" />
+          </td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+            <td><b>좋아하는 동물</b></td>        
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lion">🦁사자</label>
+                <input type="checkbox" id="lion" name="animal" value="lion" />
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="dog">🐶강아지</label>
+                <input type="checkbox" id="dog" name="animal" value="dog" />
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="cat">&#x1F638고양이</label>
+                <input type="checkbox" id="cat" name="animal" value="cat" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="penguin">&#x1F427펭귄</label>
+                <input type="checkbox" id="penguin" name="animal" value="penguin" />
+            </td>
+        </tr>
+      </table>
+
+        <br>
+      
+        <input type="submit" value="SUBMIT" />
+    </form>
+
+    <ol>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank">인스타그램</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/" target="_blank">페이스북</a>
+        </li>
+        <li>
+            <a href="https://github.com/" target="_blank">깃허브</a>
+        </li>
+    </ol>
+  </body>
+</html>
