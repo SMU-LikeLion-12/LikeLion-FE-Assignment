@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>임예림</title>
+	<style>
+		form {
+		  border: 1px solid black;
+		  padding: 2rem;
+		  max-width: 500px;
+		  width: fit-content;
+		  height: fit-content;
+		}
+	</style>
+</head>
+<body>
+	<h1>로그인 화면 만들어보기</h1>
+	<form>
+		<p><b>ID</b><br><input type="text" name="id"></p>
+		<p><b>PASSWORD</b><br><input type="password" name="pw"></p>
+		
+		<div>
+			<p>
+				<b>성별</b><br>
+				남성<input type="radio" name="성별" value="남성">
+				여성<input type="radio" name="성별" value="여성">
+			</p>
+		</div>
+		
+		<div>
+			<b>좋아하는 동물</b><br>
+			<label for="lion">🦁사자</label>
+			<input type="checkbox" name="좋아하는동물" value="사자" id="lion"><br>
+			<label for="dog">🐶강아지</label>
+			<input type="checkbox" name="좋아하는동물" value="강아지" id="dog"><br>
+			<label for="cat">😺고양이</label>
+			<input type="checkbox" name="좋아하는동물" value="고양이" id="cat"><br>
+			<label for="penguin">🐧펭귄</label>
+			<input type="checkbox" name="좋아하는동물" value="사자" id="penguin">
+		</div>
+
+		<p><input type="submit" value="SUBMIT"></p>
+	</form>
+	<ol>
+		<li><a href="https://www.instagram.com/" target="_blank">인스타그램</a></li>
+		<li><a href="https://www.facebook.com/?locale=ko_KR" target="_blank">페이스북</a></li>
+		<li><a href="https://github.com/" target="_blank">깃허브</a></li>
+	</ol>
+</body>
+</html>
