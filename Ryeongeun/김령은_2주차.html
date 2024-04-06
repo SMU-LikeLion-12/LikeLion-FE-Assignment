@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김령은</title>
+    <style>
+        form {
+          border: 1px solid black;
+          padding: 2rem;
+          max-width: 500px;
+          width: fit-content;
+          height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>로그인 화면 만들어보기</h1>
+    <form action = "">
+
+        <p><b>ID</b>
+            <br><input type="text" name="id">
+        </p>
+        <p><b>PASSWORD</b>
+            <br><input type="password" name="pwd">
+        </p>
+        
+        <table>
+            <tr><b>성별</b></tr>
+            <tr>
+                <td>
+                    <label for="male">남성</label>
+                    <input type="radio" id="male" name="gen" value="male">
+                </td>
+                <td>
+                    <label for="female">여성</label>
+                    <input type="radio" id="female" name="gen" value="female">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr><br><b>좋아하는 동물</b></tr>
+            <tr>
+                <td>
+                    <label for="lion">🦁사자</label>
+                    <input type="checkbox" id="lion" name="animal" value="lion">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dog">🐶강아지</label>
+                    <input type="checkbox" id="dog" name="animal" value="dog">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cat">&#x1F431;고양이</label>
+                    <input type="checkbox" id="cat" name="animal" value="cat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pen">&#x1F427;펭귄</label>
+                    <input type="checkbox" id="pen" name="animal" value="pen">
+                </td>
+            </tr>
+        </table>
+        <p><input type="submit" value="SUBMIT" style="font-weight : bold ;"></p>
+    </form>
+</body>
+    <ol>
+        <li>
+            <a href="https://www.instagram.com/">인스타그램</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/?locale=ko_KR">페이스북</a>
+        </li>
+        <li>
+            <a href="https://github.com/">깃허브</a>
+        </li>
+    </ol>    
+</html>
