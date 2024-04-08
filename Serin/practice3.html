@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>김멋사의 실습3</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-        <p>
-            아이디: <input type="text" name="아이디">
-        </p>
-        <p>
-            비밀번호: <input type="password" name="비밀번호">
-        </p>
-        <table>
-            <tr>
-                <th>성별
-                    <label for="male">남성</label>
-                    <input type="radio" name="성별" value="남성" id="radio">
-                    <label for="female">여성</label>
-                    <input type="radio" name="성별" value="여성" id="radio">
-
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <label for="baseball">야구</label>
-                    <input type="checkbox" name="취미">
-                </th>
-            </tr>
-        </table>
-        
-        <input type="제출">
+      <p>아이디: <input type="text" name="아이디" placeholder="아이디를 입력하세요."></p>
+      <p>비밀번호: <input type="password" name="비밀번호" placeholder="비밀번호를 입력하세요."></p>
+      <table>
+        <tr>
+          <td>성별</td>
+        </tr>
+        <tr>
+          <td>
+            <label for="male">남성</label>
+            <input type="radio" name="성별" value="남성" id="male" />
+          </td>
+          <td>
+            <label for="female">여성</label>
+            <input type="radio" name="성별" value="여성" id="female" />
+          </td>
+        </tr>
+        <tr>
+          <td>취미</td>
+        </tr>
+        <tr>
+          <td>
+            <label for="soccer">축구</label>
+            <input type="checkbox" name="취미" value="축구" id="soccer" />
+          </td>
+          <td>
+            <label for="baseball">야구</label>
+            <input type="checkbox" name="취미" value="야구" id="baseball" />
+          </td>
+          <td>
+            <label for="painting">그림</label>
+            <input type="checkbox" name="취미" value="그림" id="painting" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit">
     </form>
-</body>
+  </body>
 </html>
