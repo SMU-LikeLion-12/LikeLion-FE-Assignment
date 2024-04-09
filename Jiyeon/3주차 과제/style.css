@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+#div1 {
+  background-color: rgb(177, 225, 244);
+  padding: 10px;
+  text-align: center;
+}
+
+.h2 {
+  color: gray;
+}
+
+#div2 {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.none {
+  text-decoration: none;
+}
+
+.techit {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.github {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+#div3 {
+  background-color: rgb(177, 225, 244);
+  padding: 10px;
+  text-align: center;
+}
+
+.lion {
+  background-color: white;
+  border-radius: 10%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+#div4 {
+  border: 10px solid white;
+  margin: 30px;
+}
