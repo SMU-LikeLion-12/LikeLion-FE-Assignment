@@ -1,0 +1,40 @@
+.all{
+	width: 550px;
+	background-color: lightblue;
+	margin: 10px auto;
+}
+
+.center {
+	text-align: center;
+	padding: 20px;
+}
+
+#gray {
+	background-color: gray;
+	padding: 10px;
+	margin: 3px 0px;
+	
+}
+
+.image {
+	width: 40px;
+}
+
+.icon {
+	margin: 40px;
+}
+
+.img {
+	border-radius: 30px;
+	border: 1px solid black;
+	background-color: white;
+	width: 220px;
+	margin: 30px;
+}
+
+#block {
+	border: 8px solid white;
+	padding: 3px;
+	text-align: center;
+	margin-top: 10px;
+}
