@@ -1,0 +1,41 @@
+div {
+  background-color: skyblue;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+  text-align: left;
+  margin: 0px;
+}
+
+#img1 {
+  width: 40px;
+  height: 40px;
+}
+#img2 {
+  width: 40px;
+  height: 40px;
+}
+div a {
+  color: brown;
+}
+
+#lion_img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20%;
+  margin: 0 auto;
+}
+div p {
+  margin: auto;
+}
+.bot {
+  border: 5px solid white;
+  width: auto;
+  margin-bottom: 30px;
+}
