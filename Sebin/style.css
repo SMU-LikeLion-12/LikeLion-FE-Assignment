@@ -1,18 +1,20 @@
 .whole{
- background-color: skyblue;
+ background-color: lightblue;
  padding :20px;
  text-align: center;
 }
+.week{
+    color: gray
+}
 .titlebox{
- background-color: skyblue;
+ background-color: lightblue;
 }
 .navigation_box{
-    background-color:gray;
+    background-color:lightslategray;
 }
 .putbox{
-    background-color: skyblue;
+    background-color: lightblue;
 padding: 100px;
-
 }
 
 .red{
@@ -25,9 +27,13 @@ padding: 100px;
     border-radius: 20px;
     background-color: aliceblue;
 
+
+}
+.lion{
+    padding: 30px;
 }
 .border{
-    border:5px solid;
+    border:8px solid;
     border-color: aliceblue;
 
 }
@@ -35,7 +41,7 @@ padding: 100px;
 .navigation_box >a >img{
 width: 50px;
 height: 50px;
+padding: 15px;
 
 }
 
-}
