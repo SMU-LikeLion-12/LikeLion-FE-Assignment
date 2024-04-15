@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: local();
+}
+
+body {
+    font-family: 'Franklin Gothic Medium';
+}
+
+#body {
+    width: 80%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 30px;
+    color: darkblue;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+#section1 {
+    background-color: rgb(150, 171, 252);
+    padding: 20px 0;
+    text-align: center;
+}
+
+#profile_img {
+    width: 250px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 0 auto;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+#name {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#job {
+    color: gray;
+    font-weight: shin;
+}
+
+#section2 {
+    font-family: Arial;
+    background-color: white;
+    padding: 20px 70px 0px 70px;
+    text-align: left;
+}
+
+a {
+    margin-left: 10px;
+}
+
+hr {
+    border: 1px solid darkblue;
+}
+
+.content {
+    padding-bottom: 20px;
+}
+
+.content_title {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#section3 {
+    font-family: Arial;
+    background-color: rgb(150, 171, 252);
+    padding: 20px 70px;
+    text-align: left;
+}
+
+#stack {
+    color: white;
+}
+
+.hr1 {
+    border: 1px solid white;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#stack_list {
+    margin-top: 10px;
+}
+
+.stack {
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 6px;
+    border-style: hidden;
+    color: darkblue;
+}
+
+#last {
+    font-family: Arial;
+    text-align: center;
+    font-size: 10px;
+}

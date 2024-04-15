@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    color: brown;
+}
+div {
+    /*상하의 margin은 0, 좌우의 margin은 자동적으로 서로 맞춤*/
+    margin: 0 auto;
+    /*요소 내부 inline 요소들을 가운데로 정렬*/
+    text-align: center;
+}
+
+.coding {
+    color: brown;
+}
+
+#original {
+    color: brown;
+}
+
+img {
+    /*이미지를 상위요소 영역의 크기만큼 그저 확대/축소해서 채움*/
+    object-fit: cover;
+}
+html {
+    font-size: 10px;
+}
+h2 {
+    /*Hex color로 색상 표현*/
+    color: #ff0000;
+    /*<html>의 폰트사이즈(10px)에 대해 적용*/
+    font-size: 0.5rem;
+    /*글자 형태(기울임 등)*/
+    font-style: italic;
+    /*글자 두께*/
+    font-weight: bold;
+    /*글자 밑줄*/
+    text-decoration: underline;
+    /*밑줄 제거(<a>에 많이 사용)*/
+    text-decoration: none;
+}
+
+/*각각 방문하기 전, 방문 후로 나누어 글자색 지정*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
