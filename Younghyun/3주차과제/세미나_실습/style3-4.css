@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.all {
+  background-color: rgb(158, 215, 237);
+}
+
+.text {
+  color: red;
+}
+
+.head {
+  padding: 20px;
+}
+
+.link {
+  background-color: gray;
+  height: 45px;
+}
+
+.icon {
+  width: 33px;
+  height: 33px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+
+.lion {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid black;
+  margin: 20px 20px 0 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+.goal {
+  padding-bottom: 30px;
+}
