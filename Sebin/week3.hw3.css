@@ -1,0 +1,60 @@
+.whole{
+    background-color: blanchedalmond;
+
+}
+.title{
+    color: palevioletred;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.intro{
+    background-color: pink;
+    text-align: center;
+    padding: 50px;
+}
+.job{
+    color :white;
+}
+.mypic{
+    width: 200px;
+    height: 320px;
+    border: 3px solid;
+    border-radius: 30px;
+  
+}
+
+.midintro{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.midintro>dt{
+    color: grey;
+}
+
+.ability{
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.ability>p{
+    color: grey;
+}
+.icon1{
+    width :50px;
+    height:50px;
+}
+.icon2{
+    width :50px;
+    height:50px;
+}
+.ability> dd{
+
+    background-color: aliceblue;
+    border-radius: 8px;
+   
+    display: inline;
+    
+}
