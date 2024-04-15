@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Ycomputer-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(208, 68%, 78%);
+  font-family: "Ycomputer-Regular";
+  background-image: url(..//assets/stars.gif);
+}
+div {
+  background-color: rgb(173 216 230);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lion {
+  margin: 10px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.text {
+  padding: 20px;
+}
+
+#box {
+  width: 650px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 0 0 80px 3px #fffae0;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+  background-color: white;
+  padding: 13px;
+  text-align: left;
+}
+
+#profile {
+  background-color: #f3e38c;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#fffae0, hsl(207, 100%, 88%));
+}
+
+#profile-box1 {
+  border-radius: 30px;
+  box-shadow: 0 5px 13px 5px #aaaaaa55;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  font-size: 0px;
+  vertical-align: bottom;
+  margin: 15px;
+}
+
+#profile-box2 {
+  background-color: hsl(207, 100%, 88%);
+  text-align: center;
+}
+
+.info {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-title {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+  text-align: left;
+  margin: 3px 30px 3px 30px;
+}
+.info-description {
+  background-color: white;
+  font-size: 15px;
+  color: gray;
+  text-align: left;
+  margin: 10px 40px 10px 40px;
+}
+
+.stack {
+  display: flex;
+  justify-content: left;
+  background-color: #ffffff00;
+  margin: 5px 30px 0 30px;
+}
+.stack-button {
+  background-color: white;
+  border-radius: 10px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 15px;
+  height: 25px;
+  align-content: center;
+  margin: 0 7px 0 0px;
+  border: 1px solid darkblue;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.div-line {
+  border-top: 1px solid darkblue;
+  margin: 0px 30px;
+}
