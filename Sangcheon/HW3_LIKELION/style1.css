@@ -4,6 +4,7 @@
 .home_container {
   margin: 0 auto;
   border-style: solid;
+  width: 650px;
 }
 .Title {
   color: blue;
