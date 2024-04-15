@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+span{
+    color : red;
+}
+div {
+    background-color:lightblue;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+div.title h1 {
+    padding: 30px;
+}
+
+div.title h2 {
+    padding: 0px 30px 30px 30px;
+    color: gray;
+}
+
+.link {
+    background-color: gray;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+img.lion {
+    border-radius: 20px;
+    border-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.icon {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.box {
+    width: 400px;
+    padding: 20px;
+    border: 5px solid white;
+}
+
