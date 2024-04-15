@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 .home_container {
-  margin-top: 50px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: 0 auto;
   border-style: solid;
 }
 .Title {
