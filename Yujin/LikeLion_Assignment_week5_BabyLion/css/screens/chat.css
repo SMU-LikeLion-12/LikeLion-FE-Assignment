@@ -1,0 +1,86 @@
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(30px); /* 내려가기*/
+    }
+    60% {
+        transform: translateY(10px); /* 올라가기 */
+    }
+}
+
+.bounce {
+    animation: bounce 1s 1;
+}
+
+.delay-1 { animation-delay: 0.1s; } 
+.delay-2 { animation-delay: 0.2s; } 
+.delay-3 { animation-delay: 0.3s; } 
+.delay-4 { animation-delay: 0.4s; } 
+
+.chats_top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chats_Tab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#chats_title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon_nav{
+    font-size: 20px;
+}
+
+.icon_nav i{
+    margin-left: 17px;
+}
+.chats_Profile img {
+    width: 57px;
+    height: 57px;
+    border-radius: 23px;
+    margin-right: 15px;
+    align-items: flex-start;
+}
+
+#chats_Profile_name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    order: 1;
+}
+
+#chats_content {
+    color: gray;
+    font-size: 12px;
+    order: 2;
+}
+
+.chats_last_content{
+    font-size: 15px;
+    margin-left: auto;
+    color: gray;
+}
+
+.chats_Profile{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}

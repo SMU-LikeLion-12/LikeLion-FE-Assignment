@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to 멋사톡</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>09:41</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fa-solid fa-battery-full"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <div class="title">
+    <span id="bold_style">Welcome to 멋사톡</span>
+    <span id="gray_style">이메일이나 전화번호로 로그인 해주세요</span>
+  </div>
+
+  <div class="login_service">
+    <input id="text_input" type="text" placeholder="이메일 or 전화번호">
+    <hr>
+    <input id="text_input" type="password" placeholder="비밀번호">
+    <hr>
+    <button id="login_btn" onclick="" value="Log In">Log In</button>
+
+    <a id="forgot_account" href="#계정찾기...">비밀번호 찾기</a>
+  </div>
+
+  <div id="no-mobile">
+    <span>Your screen is too bigㅜㅜ</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/ba49d39b5e.js" crossorigin="anonymous"></script>
+</body>
+
+<script>
+  document.getElementById("login_btn").onclick = function () {
+    location.href = "../friends.html"; 
+  };
+</script>
+
+
+
+
+</html>
