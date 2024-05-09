@@ -8,6 +8,7 @@
 @import "components/navbar.css";
 @import "components/splash.css";
 @import "components/status-bar.css";
+@import "components/badge.css";
 
 /*Screens*/
 @import "screens/friends.css";

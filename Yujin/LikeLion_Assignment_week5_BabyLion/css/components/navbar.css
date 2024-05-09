@@ -12,6 +12,7 @@
 
 .nav-item {
     color: black; /* 아이콘 색상 */
+    position: relative;
     text-decoration: none; /* 링크에 밑줄 제거 */
 }
 
