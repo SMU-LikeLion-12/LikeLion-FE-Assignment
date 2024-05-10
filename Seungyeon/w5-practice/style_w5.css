@@ -1,0 +1,23 @@
+span {
+  font-size: 50px;
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out 0.1s;
+  font-family: "Ycomputer-Regular";
+}
+
+span:hover {
+  border-radius: 30px;
+  /*transform: scale(0.5)*/
+  /*transform: rotate(35deg)*/
+  /*transform: translate(10px, 20px)*/ /*(x축 , y축) - 하나만 입력하면 x축만 적용이 됨*/
+  /**/
+}
+
+@font-face {
+  font-family: "Ycomputer-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
