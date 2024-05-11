@@ -1,0 +1,12 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-bar__icon i {
+  margin-left: 20px;
+  font-size: 20px;
+}
