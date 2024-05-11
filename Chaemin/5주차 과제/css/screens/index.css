@@ -1,0 +1,44 @@
+.i-main {
+  text-align: center;
+  justify-content: center;
+  margin: 90px;
+}
+
+.i-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.i-gray {
+  color: gray;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.login-form {
+  margin: 20px;
+}
+
+input {
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.login-box {
+  border: none;
+  background-color: rgb(255, 225, 0);
+  border-radius: 0.1cm;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.login-form a {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 15px;
+}
