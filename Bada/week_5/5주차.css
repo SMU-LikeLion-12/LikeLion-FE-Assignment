@@ -1,0 +1,16 @@
+span {
+    font-size: 50px;
+    background-color: orange;
+    color: black;
+    transition: all 1s ease 0.1s;
+    transform: rotate(deg);
+}
+span:hover {
+    transition: all 1s linear 0.1s;
+    border-radius: 30px;
+    color: white; 
+    transform: scaleX(0.5);
+    transform: rotate(deg);
+    transform: translate(20px, 20px);
+    
+}

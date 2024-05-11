@@ -1,0 +1,19 @@
+
+.user-component-left {
+    margin-left: 20px;
+    float: left;
+}
+
+.user-component-left > span {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.user-component-right {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: gray;
+}
