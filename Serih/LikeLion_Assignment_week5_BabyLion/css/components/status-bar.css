@@ -1,0 +1,19 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.status-bar__column {
+    display: flex;
+    align-items: center;
+}
+
+.status-bar__column span {
+    margin-right: 3px;
+}
+
+.status-bar__column i {
+    margin-left: 3px;
+}

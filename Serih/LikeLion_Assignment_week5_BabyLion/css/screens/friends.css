@@ -1,0 +1,29 @@
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+        /*사리지는 듯 보여도 아직 남아 있기 때문에 hidden을 해줘서 숨겨준다. */
+    }
+}
+
+#splash-screen {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: yellow;
+    animation: hideSplashScreen 1.5s ease-in forwards; 
+}
+
+.line {
+    padding: 0 25px;
+}

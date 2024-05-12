@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to 멋사톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:41</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="inform">
+      <h1 class="inform-title">Welcome to 멋사톡</h1>
+      <div class="inform-sub">이메일이나 전화번호로 로그인 해주세요</div>
+    </div>
+
+    <div class="login-form">
+      <form action="/submit-login" method="post">
+        <div>
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="이메일 or 전화번호" required>
+        </div>
+        <div class="line">
+          <hr style="border-color: rgb(224, 223, 223);  border-width: 0.8px;">
+        </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="비밀번호" required>
+        </div>
+        <div class="line">
+          <hr style="border-color: rgb(224, 223, 223); border-width: 0.8px;">
+        </div>
+        <div class="Log-In">
+          <a href="friends.html">
+            <span>Log In</span>
+          </a>
+        </div>
+        <div class="log-sub">
+          <span>멋사 계정을 잊어버렸어요</span>
+        </div>
+      </form>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too bigㅜㅜ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7b4f075c15.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
