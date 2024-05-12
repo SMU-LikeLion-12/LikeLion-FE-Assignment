@@ -1,0 +1,48 @@
+.nav-bar {
+  background-color: #f9f9fa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #2d363f;
+  font-size: 32px;
+  border-top: solid 1px rgb(200, 200, 200);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.fa-magnifying-glass.nav {
+  margin: 0;
+}
+
+.fa-ellipsis {
+  position: relative;
+}
+
+.fa-circle {
+  font-size: 8px;
+  color: #fa4e4f;
+  position: absolute;
+  right: -5px;
+  top: -2px;
+}
+
+.fa-comment {
+  position: relative;
+}
+
+.fa-comment > .circle {
+  position: absolute;
+  left: 15px;
+  animation: alarm 1s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes alarm {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 20px;
+  }
+}

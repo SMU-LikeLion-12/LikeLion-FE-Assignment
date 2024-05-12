@@ -1,0 +1,31 @@
+@keyframes appearBtn {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav-btn1,
+.nav-btn2,
+.nav-btn3,
+.nav-btn4 {
+  opacity: 0;
+  animation: appearBtn 0.5s ease-in-out forwards;
+}
+
+.nav-btn2 {
+  animation-delay: 0.1s;
+}
+.nav-btn3 {
+  animation-delay: 0.2s;
+}
+.nav-btn4 {
+  animation-delay: 0.3s;
+}
