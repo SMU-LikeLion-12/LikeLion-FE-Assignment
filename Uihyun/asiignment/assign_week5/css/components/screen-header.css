@@ -1,0 +1,13 @@
+.screen-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.screen-header i {
+    font-size: 18px;
+    margin-left: 10px;
+}
