@@ -1,0 +1,85 @@
+.nav{
+    position: fixed;
+    box-sizing: border-box;
+    border-top: 1px solid;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 50px;
+    background-color: palegoldenrod;
+
+}
+
+.splash-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_btn_ft{
+    position: relative;
+    color: black;
+}
+@keyframes circleAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: none;
+    }
+}
+.nav_circle1{
+    position: absolute;
+    left: 7px;
+    bottom: 15px;
+    border-radius:50%;
+    background-color: red;
+    color: white;
+    width:12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    animation: circleAnimation 2s ease-in-out infinite;
+}
+
+.nav_circle2{
+    border-radius: 50%;
+    background-color: red;
+    width: 4px;
+    height: 4px;
+    display: flex;
+    position: absolute;
+    bottom: 17px;
+    left: 15px
+
+}
+
+@keyframes btn{
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+.nav_btn{
+    transform: translateY(50px);
+    opacity: 0;
+    animation: btn 0.3s ease-in-out forwards;
+}
+.nav_btn:first-child{
+    animation-delay: 0;
+}
+.nav_btn:nth-child(2){
+    animation-delay: 0.5s;
+}
+.nav_btn:nth-child(3){
+    animation-delay: 1s;
+}
+.nav_btn:nth-child(4){
+    animation-delay: 1.5s;
+}

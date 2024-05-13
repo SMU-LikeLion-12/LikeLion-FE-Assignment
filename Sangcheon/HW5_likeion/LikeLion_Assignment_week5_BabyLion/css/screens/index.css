@@ -1,0 +1,51 @@
+.hd-all{
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hd-title_index{
+    margin-bottom : 40px;
+    font-size: 25px;
+}
+
+.hd-content_index{
+    width: 200px;
+    opacity: 0.5;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login input{
+    border: none;
+    border-bottom: 1px solid;
+    padding: 5px 0px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+#login input::placeholder{
+    color: gray;
+}
+#login input:focus{
+    border-color:yellow;
+}
+
+#login input[type="submit"]{
+    background-color: yellow;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border-color: yellow;
+}
+
+#login a{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
