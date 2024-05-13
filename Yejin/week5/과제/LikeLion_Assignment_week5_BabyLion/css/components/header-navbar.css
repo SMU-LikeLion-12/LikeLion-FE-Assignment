@@ -1,0 +1,18 @@
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.header_title {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.header_icon {
+  font-size: 23px;
+}
+
+.header_icon i {
+  padding-left: 20px;
+}

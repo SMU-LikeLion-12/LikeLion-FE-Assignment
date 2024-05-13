@@ -1,0 +1,74 @@
+.friends-screen > a {
+  background-color: rgb(247, 247, 247);
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+.friends-screen > a i {
+  padding: 0px 12px;
+  color: gray;
+}
+
+.friends-my_profile img {
+  width: 85px;
+  height: 85px;
+  border-radius: 35px;
+}
+
+.friends-my_profile span {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.friends-my_profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+  padding: 0px 10px;
+}
+
+hr {
+  margin: 20px;
+}
+
+.friends-channel_btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.friends-channel_btn span {
+  font-size: 18px;
+  color: gray;
+  padding: 0px 20px;
+}
+
+.friends-channel_btn i {
+  margin: 0px 10px;
+}
+
+.friends-channel_list img {
+  width: 65px;
+  height: 65px;
+  border-radius: 25px;
+}
+
+.friends-channel_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 10px 5px;
+}
+
+.friends-channel_list :nth-child(2) {
+  font-size: 25px;
+  padding-right: 270px;
+}
+
+.friends-channel_list :nth-child(3) {
+  font-size: 17px;
+  color: gray;
+}
