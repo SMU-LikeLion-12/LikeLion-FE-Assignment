@@ -1,0 +1,13 @@
+.user-component_text {
+    width: calc(100%-70px);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-component_subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.u;
