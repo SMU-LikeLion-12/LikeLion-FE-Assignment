@@ -19,4 +19,8 @@
   width: 85vw;
   height: 50px;
   align-items: center;
+  background-color: rgb(255, 234, 42);
+  border: 0;
+  border-radius: 7px;
+  font-size: 17px;
 }
