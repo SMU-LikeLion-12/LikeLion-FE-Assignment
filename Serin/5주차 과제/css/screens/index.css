@@ -1,0 +1,11 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+input ::-ms-reveal,
+input ::-ms-clear {
+    display: none;
+}
