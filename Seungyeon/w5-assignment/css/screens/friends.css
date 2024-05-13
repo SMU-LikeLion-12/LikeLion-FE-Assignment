@@ -1,0 +1,36 @@
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    /*사리지는 듯 보여도 아직 남아 있기 때문에 hidden을 해줘서 숨겨준다. */
+  }
+}
+
+#splash-screen {
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 213, 0);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+}
+
+.friends-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  align-items: flex-end;
+}
+
+.profile-image {
+  display: flex;
+  object-fit: cover;
+  border-radius: 20px;
+}

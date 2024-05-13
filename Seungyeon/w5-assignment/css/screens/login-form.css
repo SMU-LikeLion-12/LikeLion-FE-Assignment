@@ -1,0 +1,22 @@
+.login-input {
+  display: flex;
+  justify-content: center;
+  margin: 35px auto;
+  width: 85vw;
+  height: 35px;
+  border-width: 0 0 1px 0;
+  transition: all 0.13s ease-in-out 0.1s;
+}
+
+.login-input:focus {
+  border-color: rgb(255, 213, 0);
+}
+
+.login-button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 85vw;
+  height: 50px;
+  align-items: center;
+}
