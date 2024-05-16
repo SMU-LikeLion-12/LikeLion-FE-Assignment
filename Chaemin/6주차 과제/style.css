@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(245, 245, 220, 0.686);
+}
+
+.container {
+  width: 300px;
+  background-color: rgba(155, 169, 187, 0.336);
+  border-radius: 0.5cm;
+}
+
+.title {
+  background-color: orange;
+  border-top-left-radius: 0.5cm;
+  border-top-right-radius: 0.5cm;
+  display: flex;
+  justify-content: space-between;
+}
+
+#num {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.title-main {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.input {
+  position: relative;
+  background-color: dodgerblue;
+  border-bottom-left-radius: 0.5cm;
+  border-bottom-right-radius: 0.5cm;
+  height: 70px;
+}
+
+#list-list {
+  overflow-y: auto;
+  height: 250px;
+}
+
+#add {
+  border: none;
+  border-radius: 0.05cm;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  outline: none;
+}
+
+#plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: dodgerblue;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 15px;
+  border-radius: 0.1cm;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
