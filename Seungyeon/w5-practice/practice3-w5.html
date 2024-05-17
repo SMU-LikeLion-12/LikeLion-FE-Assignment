@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>공튀기기</title>
+    <style>
+      @keyframes ball {
+        from {
+          width: 200px;
+        }
+        to {
+          top: 400px;
+          width: 220px;
+          height: 170px;
+        }
+      }
+      div {
+        position: relative;
+        left: 200px;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: linear-gradient(#8bf079, #e8ff65);
+        animation-name: ball;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

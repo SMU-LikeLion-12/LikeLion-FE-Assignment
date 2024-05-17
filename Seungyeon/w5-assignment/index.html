@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to 멋사톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:41</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <div style="margin-top: 50px">
+      <div
+        class="text_center"
+        style="margin-top: 130px; font-weight: 800; font-size: 35px"
+      >
+        Welcome to 멋사톡
+      </div>
+      <div
+        class="text_center"
+        style="margin: 50px 0 15px 0; font-size: 15px; color: gray"
+      >
+        멋사 계정이 있다면,
+      </div>
+      <div class="text_center" style="margin: 0; font-size: 15px; color: gray">
+        이메일이나 전화번호로 로그인해주세요!
+      </div>
+    </div>
+
+    <div style="margin-top: 110px">
+      <form method="post" action="friends.html">
+        <input
+          class="login-input"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input class="login-input" type="text" placeholder="Password" />
+        <button class="login-button" type="submit">Log In</button>
+      </form>
+      <a
+        href="https://google.com"
+        style="
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+          font-size: 13px;
+        "
+        target="_blank"
+        >비밀번호 찾기</a
+      >
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too bigㅜㅜ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/9125fcc41c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
