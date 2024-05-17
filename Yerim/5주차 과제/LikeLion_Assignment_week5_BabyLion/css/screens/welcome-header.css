@@ -1,0 +1,15 @@
+.welcome {
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+} 
+
+.welcome-inform {
+	font-size: 14px;
+	color: gray;
+	text-align: center;
+	margin-top: 32px;
+}
+
+
