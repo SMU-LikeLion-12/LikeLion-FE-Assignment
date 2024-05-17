@@ -1,0 +1,32 @@
+.login_form {
+    font-size: 15px;
+    border-color: rgb(178, 178, 178);
+    border-width: 0 0 1px;
+    width: 400px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+.login_form:focus {
+    border-color: #fef01b;
+}
+.login_form::placeholder {
+    color: rgb(178, 178, 178);
+}
+
+.login_button {
+    width: 400px;
+    height: 55px;
+    background-color: #fef01b;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.login_form::-ms-reveal,
+.login_form::-ms-clear {
+    display: none;
+}
