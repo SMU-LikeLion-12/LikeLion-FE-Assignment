@@ -1,0 +1,68 @@
+.return-login {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13x;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.return-login i {
+    color: #777;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 60px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.profile p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    background-color: #ccc;
+    width: 95%;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+}
+
+.channel {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.channel-list {
+    display: flex;
+    align-items: center;
+}
+
+.channel-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-count {
+    font-size: 13px;
+    color: #666;
+    margin-right: 20px;
+}
+
+.channel-list img {
+    height: 50px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
