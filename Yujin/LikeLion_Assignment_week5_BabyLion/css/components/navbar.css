@@ -1,0 +1,21 @@
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: #F5F5F5;
+    border-top: 1px solid lightgray;
+    justify-content: space-around; /* 아이콘 간의 간격을 동일하게 설정 */
+    padding: 20px 0; /* 바닥 내비게이션의 상하 여백 */
+}
+
+.nav-item {
+    color: black; /* 아이콘 색상 */
+    position: relative;
+    text-decoration: none; /* 링크에 밑줄 제거 */
+}
+
+.nav-item i {
+    font-size: 30px; /* 아이콘 크기 */
+}
