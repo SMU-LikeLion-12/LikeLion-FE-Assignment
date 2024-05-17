@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/*Components*/
+@import "components/no-moblie.css";
+/*Screens*/
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/chat.css";
+@import "screens/chatbasic.css"
+
+@keyframes hideSplashScreen {
+  from {
+       
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+      visibility: hidden;
+      /*사리지는 듯 보여도 아직 남아 있기 때문에 hidden을 해줘서 숨겨준다. */
+  }
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

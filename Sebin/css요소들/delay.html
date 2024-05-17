@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .zero {
+        top: 20px;
+        animation-delay: 0;
+        animation-name: delay;
+      }
+      .now {
+        top: 80px;
+        animation-delay: now;
+        animation-name: delay;
+      }
+      .s {
+        top: 140px;
+        animation-delay: 2s;
+        animation-name: delay;
+      }
+      .minus {
+        top: 200px;
+        /* 음수 설정 시 1초가 지난 후인 모습부터 재생 */
+        animation-delay: -1s;
+        animation-name: delay;
+      }
+
+      @keyframes delay {
+        from {
+          left: 100px;
+        }
+        to {
+          left: 300px;
+        }
+      }
+
+      div {
+        position: absolute;
+        left: 100px;
+        width: 100px;
+        height: 50px;
+        background: #000;
+        color: #fff;
+        /* animation-name:boxDelay; */
+        animation-timing-function: linear;
+        animation-duration: 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="zero">0</div>
+    <div class="now">now</div>
+    <div class="s">2s</div>
+    <div class="minus">-1s</div>
+  </body>
+</html>

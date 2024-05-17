@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .num {
+        top: 20px;
+        animation-iteration-count: 2;
+        animation-name: iteration-count;
+      }
+      .num2 {
+        top: 80px;
+        /* 한번 재생되고 다음 전체 프레임의 3/10만 재생 */
+        animation-iteration-count: 1.3;
+        animation-name: iteration-count;
+      }
+      .infinite {
+        top: 140px;
+        animation-iteration-count: infinite;
+        animation-name: iteration-count;
+      }
+
+      @keyframes iteration-count {
+        from {
+          left: 100px;
+        }
+        to {
+          left: 300px;
+        }
+      }
+
+      div {
+        position: absolute;
+        left: 100px;
+        width: 100px;
+        height: 50px;
+        margin-left: -50px;
+        background-color: #000;
+        color: #fff;
+        /*animation-name:iteration-count; */
+        animation-timing-function: linear;
+        animation-duration: 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="num">2</div>
+    <div class="num2">1.3</div>
+    <div class="infinite">infinite</div>
+  </body>
+</html>

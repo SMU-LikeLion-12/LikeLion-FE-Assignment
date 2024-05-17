@@ -1,0 +1,121 @@
+.high {
+  position: fixed;
+  top: 7%;
+}
+.friend {
+  position: fixed;
+  left: 5%;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.icon {
+  position: fixed;
+  right: 5%;
+  font-size: xx-large;
+}
+
+
+.set{
+  position: fixed;
+  top: 133px;
+  left: 25%;
+}
+.comeback{
+  position: fixed;
+  top: 115px;
+  left: 0%;
+  right:0%;
+  height: 50px;
+  border: 1px solid white;
+  font-size: large;
+  color:rgb(120,120,120);
+  background-color: rgba(228, 228, 228, 0.815); /
+  
+}
+.pic{
+  position: fixed;
+  top: 190px;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 35px;
+  
+}
+.pic2{
+  position: fixed;
+  top: 370px;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  
+}
+.name{
+  position: fixed;
+  top: 225px;
+  left: 25%;
+  font-size:x-large;
+  font-weight: bold;
+
+}
+.cha{
+  font-size: medium;
+  color: gray;
+  position: fixed;
+  top: 320px;
+  left: 5%;
+}
+.arrow{
+  font-size: medium;
+  color: gray;
+  position: fixed;
+  top: 320px;
+  right: 5%;
+}
+.hr{
+  position: fixed;
+  top:300px;
+  left: 0%;
+  right: 0%;
+  width: 95%;
+  height: 2px; 
+  border: 1px solid white;
+  background-color:lightgrey; /* 선의 색상 설정 */ 
+}
+.Channel{
+  position: fixed;
+  top: 395px;
+  left: 20%;
+  font-size: x-large;
+}
+.num{
+  position: fixed;
+  top: 395px;
+  right: 5%;
+  font-size: medium;
+  color: gray;
+}
+.icons{
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(242, 242, 242);
+  position:relative;
+  top:840px;
+  font-size: 29px; 
+  border: 1px solid gainsboro
+}
+.icons > div {
+  width: 130px; /* 아이콘 컨테이너의 너비를 설정 */
+  height: 130px; /* 아이콘 컨테이너의 높이를 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+

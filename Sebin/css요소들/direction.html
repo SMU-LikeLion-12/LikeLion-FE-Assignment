@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .normal {
+        top: 20;
+        /* 순방향에서만 실행 */
+        animation-direction: normal;
+        animation-name: direction;
+      }
+      .alternate {
+        top: 80px;
+        /* 순방향 역방향 둘다 실행 */
+        animation-direction: alternate;
+        animation-name: direction;
+      }
+      .reverse {
+        top: 140px;
+        /* 역방향에서만 실행 */
+        animation-direction: reverse;
+        animation-name: direction;
+      }
+      .a_reverse {
+        top: 200px;
+        /* 역방향 순방향 둘다 실행 */
+        animation-direction: alternate-reverse;
+        animation-name: direction;
+      }
+
+      @keyframes direction {
+        from {
+          left: 40px;
+        }
+        to {
+          left: 300px;
+        }
+      }
+
+      div {
+        position: absolute;
+        left: 40px;
+        width: 150px;
+        height: 50px;
+        background: #000;
+        color: #fff;
+        /* animation-name:direction; */
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        animation-timing-function: ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="normal">normal</div>
+    <div class="alternate">alternate</div>
+    <div class="reverse">reverse</div>
+    <div class="a_reverse">alternate-reverse</div>
+  </body>
+</html>
