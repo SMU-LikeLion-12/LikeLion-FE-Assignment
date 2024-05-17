@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 23px 0;
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid lightgray;
+}
+
+.navbar-btn {
+  position: relative;
+}
+.navbar a i {
+  font-size: 35px;
+  color: rgb(62, 61, 61);
+}
+
+@keyframes appearNavBar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.navbar-btn {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: appearNavBar 0.5s ease-in-out forwards;
+}
+
+.navbar-btn:first-child {
+  animation-delay: 0.1s;
+}
+
+.navbar-btn:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.navbar-btn:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.navbar-btn:last-child {
+  animation-delay: 0.4s;
+}

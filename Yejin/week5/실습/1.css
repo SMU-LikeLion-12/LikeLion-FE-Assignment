@@ -1,0 +1,10 @@
+span {
+  font-size: 50px;
+  background-color: orange;
+}
+
+span:hover {
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out 0.1s;
+  color: white;
+}
