@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #4b2612;
+  border-radius: 0 0 20px 20px;
+}
+
+.plus-btn {
+  color: #4b2612;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.todo-input {
+  display: none;
+  width: 200px;
+}
+
+.footer:hover .plus-btn {
+  visibility: hidden;
+}
+
+.footer:hover .todo-input {
+  display: block;
+}
