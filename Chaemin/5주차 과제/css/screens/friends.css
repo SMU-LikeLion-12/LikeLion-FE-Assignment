@@ -1,0 +1,120 @@
+#splash-screen {
+  background-color: rgb(255, 225, 0);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  top: 0;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 1s ease-in-out 0.5s forwards;
+}
+
+#splash-screen i {
+  font-size: 150px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.f-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-title span {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.f-title-img {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.f-title-img i {
+  padding-left: 20px;
+}
+
+.f-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 40px;
+}
+
+.f-login i {
+  color: gray;
+  padding: 0 5px;
+}
+
+.myprofile {
+  display: flex;
+  align-items: center;
+}
+
+.my-img {
+  margin: 10px 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30%;
+}
+
+.myprofile span {
+  font-weight: bold;
+}
+
+.margin {
+  margin: 10px 20px;
+}
+
+.channel-mark {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin: 15px 20px;
+}
+
+.channel-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel-profile {
+  display: flex;
+  align-items: center;
+}
+
+.channel-profile img {
+  height: 50px;
+  width: 50px;
+  margin: 0 20px;
+}
+
+.channel-info {
+  font-size: 15px;
+  color: gray;
+  margin: 20px;
+}
+
+.chat-img {
+  position: relative;
+}
+
+.set-img {
+  position: relative;
+}

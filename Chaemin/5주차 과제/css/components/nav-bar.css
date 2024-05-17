@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar i {
+  font-size: 30px;
+  margin: 10px;
+}
