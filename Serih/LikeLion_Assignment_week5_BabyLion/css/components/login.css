@@ -1,0 +1,25 @@
+.login {
+    display: flex;
+    background-color: rgb(245, 244, 244);
+    align-items: center;
+    padding: 9px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.login a {
+    display: flex; 
+    align-items: center;
+    text-decoration: none;
+}
+
+.login span {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+}
+
+.login i {
+    font-size: 15px;
+    color: grey;
+}
