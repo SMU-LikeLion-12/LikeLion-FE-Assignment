@@ -1,0 +1,22 @@
+.icon-row {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  padding: 15px 0;
+  height: 30px;
+  border-top: 1px solid lightgray;
+}
+
+.icon-row__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.icon-row__list li {
+  font-size: 30px;
+}

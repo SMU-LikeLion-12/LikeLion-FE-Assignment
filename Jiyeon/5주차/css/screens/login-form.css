@@ -1,0 +1,28 @@
+.login-form {
+  width: 80vw;
+  height: 7vh;
+  border-width: 0 0 1px;
+  border-color: lightgray;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.login-form::placeholder {
+  color: lightgray;
+}
+
+.login-button {
+  width: 80vw;
+  height: 7vh;
+  background-color: rgb(252, 223, 5);
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.main-screen > span {
+  cursor: pointer;
+}
