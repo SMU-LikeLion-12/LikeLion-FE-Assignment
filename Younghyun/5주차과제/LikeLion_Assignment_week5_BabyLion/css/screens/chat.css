@@ -1,0 +1,16 @@
+#chat-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 35%;
+}
+
+.message {
+  color: gray;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.time {
+  color: gray;
+  margin-bottom: 10px;
+}

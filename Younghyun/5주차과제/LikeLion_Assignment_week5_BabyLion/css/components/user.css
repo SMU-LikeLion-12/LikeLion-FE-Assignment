@@ -1,0 +1,17 @@
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel-list {
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.user-name {
+  font-weight: bold;
+}
