@@ -1,0 +1,101 @@
+@import './list.css';
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    background-color: navy;
+}
+
+#screen {
+    margin: 100px auto;
+    width: 30%;
+    border-radius: 10%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+#h {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px 20px;
+}
+
+#h_text {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#remain_list {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+#content {
+    overflow: auto;
+    height: 300px;
+}
+
+#f {
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    bottom: 0;
+    width: 100%;
+}
+
+#plus {
+    width: 30px;
+    font-size: 30px;
+    background-color: white;
+    color: lightblue;
+    margin: 5px auto;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+#txt {
+    height: 28px;
+    border: none;
+    position: absolute;
+    font-size: 20px;
+    bottom: 5px;
+    opacity: 0;
+    animation: event2 1s forwards;
+}
+
+#f:hover #plus {
+    opacity: 0;
+    width: 80%;
+}
+#f:hover #txt {
+    opacity: 1;
+    animation: event1 1s forwards;
+}
+@keyframes event1 {
+    0% {
+        opacity: 1;
+        width: 10%;
+        left: 45%;
+    }
+    100% {
+        width: 80%;
+        left: 9%;
+    }
+}
+@keyframes event2 {
+    0% {
+        width: 80%;
+        left: 9%;
+    }
+    100% {
+        opacity: 0;
+        width: 15%;
+    }
+}
