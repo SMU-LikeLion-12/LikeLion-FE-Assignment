@@ -1,0 +1,199 @@
+:root {
+  --screen-color: rgb(178, 174, 226);
+  --header-color: rgb(146, 182, 177);
+  --bg-color: rgb(36, 23, 47);
+  --highlight-color: rgb(247, 255, 220);
+  --footer-color: rgba(202, 221, 196, 0);
+}
+
+@font-face {
+  font-family: "Ycomputer-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+div {
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+  font-family: "Ycomputer-Regular";
+  background-image: url(https://media1.giphy.com/media/3ohbkAUgo2jaD3EhE7/200w.gif?cid=6c09b952eodh2msf0p6p9vcjie24t4fbozv3c0ig6xqsda9k&ep=v1_gifs_search&rid=200w.gif&ct=s);
+  background-size: contain;
+}
+
+#todo_screen {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  background-color: var(--screen-color);
+  justify-content: center;
+  align-content: center;
+  box-shadow: 1px 1px 15px rgba(74, 74, 74, 0.633);
+}
+
+#todo_header {
+  display: flex;
+  background: linear-gradient(90deg, rgb(247, 178, 255), rgb(180, 162, 233));
+  width: 100%;
+  height: 80px;
+  font-weight: 900;
+  padding: 20px;
+  border-radius: 25px 25px 0 0;
+  justify-content: space-between;
+}
+
+#todo_title {
+  color: rgb(49, 14, 54);
+  display: flex;
+  justify-content: left;
+  width: 70%;
+  align-items: center;
+  align-content: center;
+}
+
+#count {
+  color: black;
+  background-color: var(--highlight-color);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--footer-color);
+  width: 100%;
+  height: 120px;
+  font-weight: 900;
+  padding: 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.list {
+  padding: 15px;
+  height: 100%;
+  overflow-y: auto; /* 스크롤 */
+}
+
+#input_icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  font-size: 42px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 1px 1px 3px rgba(74, 74, 74, 0.633);
+}
+
+#input_todo {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+
+#input_todo.show {
+  display: block;
+}
+
+#todo_text {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 80%;
+  height: 38px;
+  border-radius: 25px;
+  margin: auto;
+  font-size: 19px;
+  font-family: "Ycomputer-Regular";
+}
+
+#todo_text_submit {
+  display: flex;
+}
+
+@keyframes toDoTextShow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes toDoTextHide {
+  from {
+    width: 80%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+#input_todo.show #todo_text {
+  animation-name: toDoTextShow;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+}
+
+#input_todo.hide #todo_text {
+  animation-name: toDoTextHide;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 13px;
+  margin-left: 5px;
+}
+
+#todo_list {
+  list-style-type: none;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#todo_list li {
+  background-color: white;
+  margin-bottom: 13px;
+  padding: 8px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  box-shadow: 1px 1px 8px rgba(225, 255, 232, 0.633);
+}
+
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(141, 141, 141);
+}
