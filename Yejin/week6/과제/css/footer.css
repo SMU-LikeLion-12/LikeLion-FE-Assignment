@@ -1,0 +1,27 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: orange;
+  border-radius: 0 0 20px 20px;
+}
+
+.add-btn {
+  font-size: 30px;
+  border-radius: 7px;
+  color: orangered;
+}
+
+.todo-input {
+  display: none;
+  width: 200px;
+}
+
+.footer-content:hover.add-btn {
+  visibility: hidden;
+}
+
+.footer-content:hover.todo-input {
+  visibility: block;
+}
