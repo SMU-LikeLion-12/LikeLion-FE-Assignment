@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="todo">
+        <div class="top">
+            <div class="top-title">Todo List
+                <i class="fa-brands fa-gratipay"></i>
+            </div>
+            <div class="top-number">0</div>
+        </div>
+        <main class="middle">
+            <ul class="todolist">
+                <li class="todo-item" style="display: none;">
+                    <input type="checkbox" class="item-checkbox" />
+                    <span class="item-title"></span>
+                    <button type="button" class="todo-delete">
+                      <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </li>
+            </ul>
+        </main>
+        <footer class="bottom">
+            <button type="button" class="plus-btn">
+                <i class="fa-solid fa-square-plus"></i>
+            </button>
+            <input type="text" class="todo-input" style="display:none;">
+        </footer>
+    </header>
+    <script src="https://kit.fontawesome.com/40b7ca0bb1.js" crossorigin="anonymous"></script>
+    <script src="./todo.js"></script>
+</body>
+</html>

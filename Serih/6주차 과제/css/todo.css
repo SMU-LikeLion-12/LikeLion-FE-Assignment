@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(23, 23, 116, 0.497);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.todo {
+    border-radius: 13px;
+    background-color: gainsboro;
+    width: 300px;
+}
