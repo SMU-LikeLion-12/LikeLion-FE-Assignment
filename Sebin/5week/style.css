@@ -1,0 +1,12 @@
+span{
+          font-size: 40px;
+          color: black;
+          background-color: orange;
+         
+
+}
+span:hover{
+          border-radius: 30px;
+          transition: all .5s ease.2s;
+     
+}
