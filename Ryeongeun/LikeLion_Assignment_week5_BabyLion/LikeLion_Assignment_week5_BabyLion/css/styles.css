@@ -6,6 +6,9 @@
 /*Components*/
 @import 'components/no-moblie.css';
 @import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
 
 /*Screens*/
 @import 'screens/friends.css';

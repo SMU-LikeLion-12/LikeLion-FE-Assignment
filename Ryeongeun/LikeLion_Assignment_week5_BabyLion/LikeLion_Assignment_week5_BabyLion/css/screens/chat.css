@@ -1,13 +1,39 @@
-.user-component_text {
-    width: calc(100%-70px);
+.user-component {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+.user-component_text {
+    width: 60%;
 }
 
 .chat-component_subtext {
     display: flex;
     flex-direction: column;
+    align-items: end;
+    margin-right: 5%;
+    width: 15%;
+}
+
+.chat-component_time {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.chat-component_alarm1 {
+    padding-top: 5px;
+    display: flex;
     justify-content: right;
 }
 
-.u;
+.chat-component_alarm2 {
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
