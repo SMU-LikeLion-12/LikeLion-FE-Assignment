@@ -1,0 +1,42 @@
+#li {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+#li li {
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#li input {
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#li i {
+    position: absolute;
+    right: 0px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
+
+#li .complete {
+    color: lightgray;
+    text-decoration: line-through 3px gray;
+}

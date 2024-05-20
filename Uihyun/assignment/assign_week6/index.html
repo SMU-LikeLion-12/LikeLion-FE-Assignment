@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://kit.fontawesome.com/48b6d74663.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div id="screen">
+            <header id="h">
+                <h1 id="h_text">Todo List</h1>
+                <p id="remain_list">0</p>
+            </header>
+
+            <div id="content">
+                <list id="li"></list>
+            </div>
+
+            <footer id="f">
+                <i class="fa-solid fa-plus" id="plus"></i>
+                <input type="text" id="txt" onkeypress="plus_list(event)" />
+            </footer>
+            <script src="js/index.js"></script>
+        </div>
+    </body>
+</html>
