@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+    background-color: lightblue;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top_bar {
+    width: 300px;
+    height: 60px;
+    background-color : orange;
+    border-radius: 50px 50px 0px 0px;
+  }
+
+#list {
+    position: relative;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: left;
+    overflow-y: auto;
+}
+
+
+#list > * {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: 1px black solid;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+#list li {
+    background-color: ivory;
+    padding-left: 10px;
+    padding-top: 4px;
+    height: 35px;
+    width: 260px;
+}
+
+#list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+#list input {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#list button {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 1px;
+    background-color: transparent;
+    padding: 0;
+    border: 0px transparent solid;
+}
+
+
+
+#list span {
+    background-color: transparent;
+}
+
+
+
+
+.title {
+    position: absolute;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.count {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolist {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.bottom_bar {
+    width: 300px;
+    height: 60px;
+    background-color : yellowgreen;
+    border-radius: 0px 0px 50px 50px;
+  }
+
+#frm {
+    display: flex;
+    background-color: transparent;
+}
+
+#input_box {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    margin-top: 13px;
+    margin-left: 45px;
+    border-style: hidden;
+    border-radius: 10px 10px 10px 10px;
+}
