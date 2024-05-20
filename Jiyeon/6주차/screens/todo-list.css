@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+  height: 200px;
+  overflow-y: auto;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 200px;
+  padding: 5px;
+  box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.todo-item.checked {
+  color: gray;
+}
+
+.item-title {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.delete-btn {
+  color: rgb(220, 3, 3);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
