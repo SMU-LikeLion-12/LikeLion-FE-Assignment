@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+	<div class="todo-frame">
+		<div class="header">
+			<div class="name">
+				<p>Todo List</p>
+			</div>
+			<div class="list-num">
+				<p id="num-count">0</p>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="todo-list">
+			</div>
+		</div>
+
+		<div class="add">
+			<div id="add-field">
+				<i id="add-icon" class="fas fa-plus"></i>
+				<form>
+					<input type="text" id="list-input" style="display:none" onkeypress="content_input(event)">
+					<input type="text" style="display:none";>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/c82201de71.js" crossorigin="anonymous"></script>
+	<script src="./todo.js"></script>
+</body>
+</html>
