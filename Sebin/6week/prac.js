@@ -25,6 +25,4 @@ document.getElementById("submit").onclick=function(){
 
          item.style.backgroundColor="orange"
          document.getElementById("parent").appendChild(item);
-         
-
 };
