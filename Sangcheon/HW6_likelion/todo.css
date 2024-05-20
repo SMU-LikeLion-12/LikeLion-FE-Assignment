@@ -1,0 +1,124 @@
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.todo-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: blanchedalmond;
+  border-radius: 25px;
+  margin: 10px 5px;
+}
+
+#todo-list li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#todo-list li button {
+  background: none;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+#todo-list li button:hover {
+  color: #c9302c;
+}
+
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#todo-input {
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 1s;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.list-add {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #5cb85c;
+  font-size: 20px;
+  transition: opacity 0.5s ease-in-out;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  top: 15px;
+}
+
+#todo-form:hover .list-add {
+  opacity: 0;
+}
+
+#todo-form:hover #todo-input {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.count-circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #5cb85c;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}

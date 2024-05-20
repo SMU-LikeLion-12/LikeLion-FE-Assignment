@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>시승연 2주차 과제</title>
+    <style>
+      form {
+        border: 1px solid rgb(255, 189, 211);
+        padding: 2rem;
+        max-width: 500px;
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(255, 247, 249);
+        background-image: url(https://i.pinimg.com/originals/8c/a1/02/8ca102a811768049d3c329f9d471130a.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center top;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><b>로그인 화면 만들어보기</b></h1>
+    <form action="">
+      <p><b>ID</b></p>
+      <input type="text" id="id" placeholder="아이디 입력" />
+      <p><b>PASSWORD</b></p>
+      <input type="password" id="pw" placeholder="비밀번호 입력" />
+      <p></p>
+      <!--줄 띄움-->
+      <table>
+        <!--성별 선택란-->
+        <tr>
+          <td><b>성별</b></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="male">남성</label>
+            <input type="radio" name="성별" value="남성" id="male" />
+            <label for="female">여성</label>
+            <input type="radio" name="성별" value="여성" id="female" />
+          </td>
+        </tr>
+      </table>
+      <p></p>
+      <!--줄 띄움-->
+      <table>
+        <!--좋아하는 동물 선택란-->
+        <tr>
+          <td><b>좋아하는 동물</b></td>
+        </tr>
+        <tr>
+          <td>
+            🦁사자<input type="checkbox" name="동물" value="사자" id="lion" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            🐶강아지<input
+              type="checkbox"
+              name="동물"
+              value="강아지"
+              id="dog"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            😺고양이
+            <input type="checkbox" name="동물" value="고양이" id="cat" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            🐧펭귄<input
+              type="checkbox"
+              name="동물"
+              value="펭귄"
+              id="penguin"
+            />
+          </td>
+        </tr>
+      </table>
+      <p></p>
+      <!--줄 띄움-->
+      <input type="submit" value="SUBMIT" />
+    </form>
+    <ol>
+      <li>
+        <a href="https://instagram.com" target="_blank">인스타그램</a>
+      </li>
+      <li>
+        <a href="https://facebook.com" target="_blank">페이스북</a>
+      </li>
+      <li>
+        <a href="https://github.com/seungyeons2" target="_blank">깃허브</a>
+      </li>
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.home_container {
+  margin: 0 auto;
+  border-style: solid;
+  width: 650px;
+}
+.Title {
+  color: blue;
+  margin-left: 20px;
+}
+.container {
+  background-color: skyblue;
+  text-align: center;
+}
+#lion_img {
+  border-radius: 20%;
+  background-color: white;
+  width: 20%;
+  height: 20%;
+  margin-top: 35px;
+}
+#github_img {
+  width: 5%;
+  height: 5%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+#instagram_img {
+  width: 5%;
+  height: 5%;
+  margin-bottom: 20px;
+}
+#facebook_img {
+  width: 5%;
+  height: 5%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.Explain {
+  margin: 70px;
+}
+.Stack {
+  background-color: skyblue;
+}
+.container5 {
+  margin: 70px;
+  margin-bottom: 0px;
+  color: white;
+  padding-top: 10px;
+}
+.box {
+  background-color: white;
+  color: blue;
+  border-radius: 10%;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: -50px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.COPY {
+  text-align: center;
+  color: gray;
+  margin-top: 5px;
+}

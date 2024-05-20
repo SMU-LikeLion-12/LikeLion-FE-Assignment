@@ -1,0 +1,44 @@
+.chats-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.chats-list {
+    display: flex;
+    align-items: center;
+}
+
+.chats-list img {
+    height: 60px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.chats-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chats-user {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.chats-text {
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.chats-time {
+    font-size: 15px;
+    color: #666;
+    margin-right: 20px;
+}
+
+.chats-content img {
+    height: 18px;
+    margin: 5px 20px;
+}

@@ -1,0 +1,64 @@
+
+.back-login {
+    clear: both;
+    background-color: rgba(211, 211, 211, 0.194);
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+.back-login span {
+    color: black;
+    margin: 10px;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-line {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid lightgray;
+}
+
+.user-component-left img {
+    width: 50px;
+    height: 50px;
+}
+
+.channel {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: gray;
+    display: flex;
+    justify-content:space-between;
+}
+
+#splash-screen {
+    z-index: 3;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: rgb(255, 230, 0);
+    animation: hideSplashScreen 1s ease-in forwards; 
+  }
+  
+  @keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

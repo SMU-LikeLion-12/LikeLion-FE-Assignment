@@ -1,0 +1,35 @@
+@keyframes noticebadge {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+.notice-badge {
+  position: absolute;
+  top: -13px;
+  right: -7px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(241, 95, 95);
+  color: white;
+  border-radius: 50%;
+  animation: noticebadge 1.5s ease-in-out infinite;
+}
+
+.notice-dot {
+  position: absolute;
+  background-color: rgb(241, 95, 95);
+  width: 9px;
+  height: 9px;
+  top: -7px;
+  right: -7px;
+  border-radius: 50%;
+}

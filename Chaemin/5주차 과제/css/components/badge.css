@@ -1,0 +1,39 @@
+@keyframes badge {
+  from {
+    transform: translateY(2px);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+.chat-img span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 1px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 15px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation: badge 0.5s infinite alternate;
+}
+
+.set-img span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5px;
+  right: 1px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 15px;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}

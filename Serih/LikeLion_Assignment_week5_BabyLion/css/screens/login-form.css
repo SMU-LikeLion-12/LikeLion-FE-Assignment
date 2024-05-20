@@ -1,0 +1,40 @@
+.Log-In {
+    display: flex;
+    background-color: rgb(242, 212, 15);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Log-In span {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.log-sub {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  font-size: 15px;
+  color: grey;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; 
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  border: none; 
+}

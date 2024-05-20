@@ -1,0 +1,48 @@
+.user-component img {
+    width: 55px;
+    height: 55px;
+    border-radius: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.user-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-component-column {
+    display: flex;
+    align-items: center;
+}
+
+.user-component-name {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.user-component-chat {
+    font-size: 15px;
+    color: #888;
+}
+
+.user-component-time {
+    font-size: 15px;
+    color: #888;
+    padding-right: 20px; 
+}
+
+.user-component-read {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}

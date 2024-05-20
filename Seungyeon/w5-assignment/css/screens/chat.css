@@ -1,0 +1,44 @@
+.chats-text {
+  display: flex;
+}
+
+.chats-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chats-right {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chats-left .chats-name {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.chats-left .chats-chat {
+  color: rgb(162, 162, 162);
+}
+
+.chats-right .chats-time {
+  color: rgb(162, 162, 162);
+  margin-bottom: 5px;
+}
+
+.chats-right .chats-notification {
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 41, 63);
+  text-align: center;
+}

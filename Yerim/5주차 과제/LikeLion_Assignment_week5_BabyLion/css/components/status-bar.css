@@ -1,0 +1,11 @@
+.status-bar {
+	display: flex;
+	font-size: 15px;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.status-bar_space {
+	margin-right: 3px;
+}
+

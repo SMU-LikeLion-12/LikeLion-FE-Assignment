@@ -1,0 +1,38 @@
+.notice-chat, .notice-bar {
+	background-color: rgb(249,78,79);
+	border-radius: 100px;
+	width: 21px;
+	height: 21px;
+	margin-top: 7px;
+	margin-left: auto;
+}
+
+.notice-chat p, .notice-bar p {
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.notice-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 100px;
+	background-color: rgb(249,78,79);
+	margin-left: auto;
+}
+
+.notice-bar {
+	position: absolute;
+	left: 19px;
+	bottom: 16px;
+
+}
+
+.notice-dot {
+	position: absolute;
+	top: -1px;
+	right: -6px;
+
+}

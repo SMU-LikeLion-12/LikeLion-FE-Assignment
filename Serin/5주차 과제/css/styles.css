@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "variables.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/*Components*/
+@import "components/appear_btn.css";
+@import "components/icons.css";
+@import "components/nav_bar.css";
+@import "components/no-moblie.css";
+@import "components/status-bar.css";
+/*Screens*/
+@import "screens/welcome_header.css";
+@import "screens/login_form.css";
+@import "screens/splash-screen.css";
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

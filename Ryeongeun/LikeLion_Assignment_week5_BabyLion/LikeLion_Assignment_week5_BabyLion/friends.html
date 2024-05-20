@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to 멋사톡</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>09:41</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header_title">Friends</h1>
+            <div class="screen-header_icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span><i class="fa-solid fa-music fa-lg"></i></span>
+            </div>
+        </header>
+        <a href="index.html">
+            <div class="friends-return">
+                <span><i class="fa-solid fa-circle-info" style="color: #a7a7a7"></i></span>
+                로그인 화면으로 돌아가기
+                <span><i class="fa-solid fa-chevron-right" style="color: #a7a7a7"></i></span>
+            </div>
+        </a>
+
+        <main>
+            <div class="user-component">
+                <!-- 프로필 -->
+                <div class="user-component_column">
+                    <img src="./kry.jpg" class="user-component_img" />
+                    <div class="user-component_text">
+                        <h4 class="user-component_title">KIM</h4>
+                    </div>
+                </div>
+                <div class="user-component_column"></div>
+            </div>
+
+            <!-- 채널 -->
+            <div class="friends-screen">
+                <div class="friends-screen_channel">
+                    <span>Channel</span>
+                    <i class="fa-solid fa-chevron-up" style="color: #a7a7a7"></i>
+                </div>
+                <div class="friends-screen_profile">
+                    <div class="friends-screen__profile">
+                        <img src="./kry.jpg" class="friends-screen_img" />
+                    </div>
+                    <div class="friends-screen_title">
+                        <h1>Channel</h1>
+                    </div>
+                    <div class="friends-screen_alarm">
+                        <p>2</p>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_btn">
+                    <a class="nav_link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="chats.html"><i class="fa-solid fa-comment fa-2x"></i></a>
+                    <span class="nav_notification">1</span>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav_btn">
+                    <a class="nav_link" href="#"><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+                    <div class="nav_notification2"></div>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="splash-screen">
+            <i class="fa-solid fa-comment fa-2x"></i>
+        </div>
+
+        <div id="no-mobile">
+            <span>Your screen is too bigㅜㅜ</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/8d049b55ed.js" crossorigin="anonymous"></script>
+    </body>
+</html>

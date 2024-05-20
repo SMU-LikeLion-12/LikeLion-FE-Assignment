@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강바다</title>
+    <style>
+        form {
+          border: 1px solid black;
+          padding: 2rem;
+          max-width: 500px;
+          width: fit-content;
+          height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>로그인 화면 만들어보기</h1>
+    <form action="">
+        <label><b>ID</b></label><br><input type="text" name="id">
+        <br>
+        <label><b>PASSWORD</b></label><br><input type="password" name="password">
+        <br><br>
+        <label><b>성별</b></label><br>
+        <label for="남성">남성</label>
+        <input type="radio" name="성별" value="남성">
+        <label for="여성">여성</label>
+        <input type="radio" name="성별" value="여성">
+        <br><br>
+        <label><b>좋아하는 동물</b></label><br>
+        <label for="lion">🦁사자</label><input type="checkbox" id="lion" name="animal" value="lion"><br>
+        <label for="puppy">🐶강아지</label><input type="checkbox" id="puppy" name="animal" value="puppy"><br>
+        <label for="cat">😺고양이</label><input type="checkbox" id="cat" name="animal" value="cat"><br>
+        <label for="penguin">🐧펭귄</label><input type="checkbox" id="penguin" name="animal" value="penguin"><br>
+        <br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <ol>
+        <li><a href="https://www.instagram.com/">인스타그램</li>
+        <li><a href="https://www.facebook.com/">페이스북</li>
+        <li><a href="https://github.com/">깃허브</li>
+    </ol>
+</body>
+</html>

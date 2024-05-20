@@ -1,0 +1,36 @@
+.login-form {
+  margin: 50px;
+}
+
+.login-form input {
+  border: none;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.login-form hr {
+  margin: 20px 0;
+}
+
+#user-pw {
+  margin-top: 15px;
+}
+
+.login-form input::placeholder {
+  color: lightgray;
+}
+
+#login-btn {
+  background-color: rgb(255, 225, 0);
+  border-radius: 5px;
+  width: 100%;
+  padding: 23px;
+  cursor: pointer;
+}
+
+.login-form a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}

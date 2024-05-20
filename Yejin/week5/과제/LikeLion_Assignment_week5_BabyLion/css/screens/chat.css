@@ -1,0 +1,64 @@
+.chats-profile img {
+  width: 85px;
+  height: 85px;
+  border-radius: 35px;
+}
+
+.chats-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.chats-profile_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chats-profile_part1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 270px;
+}
+
+.chats-profile_part2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#chats-profile_name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#chats-profile_content {
+  font-size: 20px;
+  color: gray;
+  padding-left: 5px;
+}
+
+#chats-profile_time {
+  font-size: 18px;
+  color: gray;
+  padding-top: 10px;
+}
+
+#chats-profile_notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(241, 95, 95);
+  top: 30px;
+  right: 0px;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: absolute;
+}

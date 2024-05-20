@@ -1,0 +1,99 @@
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+	}
+}
+
+#splash-screen {
+	display: flex;
+	background-color: rgb(250,225,0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	animation: hideSplashScreen 1.5s step-end forwards;
+}
+
+html,body {
+	height: 100%;
+}
+
+.return-login {
+	margin-top: 0px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f9f9fb;
+}
+
+.return-login i {
+	color: gray;
+}
+
+.return-login p {
+	font-size: 15px;
+	margin-left: 9px;
+	margin-right: 9px;
+	
+}
+
+.profile-img1 {
+	width: 60px;
+	border-radius: 24px;
+}
+
+.profile-name {
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 18px;
+}
+
+.friends-hr hr {
+	border-bottom: 0px;
+	border-width: 0.5px;
+	border-color: #ececec;
+	margin-top: 23px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.friends-channel {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 13px 20px;	
+	color: gray;
+}
+
+.friends-channel p {
+	font-size: 13px;
+}
+
+.channel-icon1 {
+	margin-left: auto;
+}
+
+.profile-img2 {
+	width: 43px;
+	border-radius: 18px;
+}
+
+.channel-font {
+	margin-left: 15px;
+}
+
+.channel-num {
+	margin-left: auto;
+	font-size: 14px;
+	color: gray;
+}
+
+

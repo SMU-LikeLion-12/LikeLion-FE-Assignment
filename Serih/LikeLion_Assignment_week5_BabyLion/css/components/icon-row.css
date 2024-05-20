@@ -1,0 +1,19 @@
+.icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.channel {
+    color: grey;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.up {
+    color: grey;
+    font-size: 15px;
+    padding-right: 25px;
+    font-weight: 100;
+}

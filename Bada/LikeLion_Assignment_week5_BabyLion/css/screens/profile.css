@@ -1,0 +1,10 @@
+.profile img {
+    margin: 10px 0px 0px 20px;
+}
+
+.profile .name {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}

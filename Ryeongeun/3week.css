@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+.all {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgb(160, 188, 220);
+}
+.title {
+    color: rgb(57, 57, 130);
+    background-color: white;
+    padding-left: 8px;
+    margin-top: -21px;
+}
+.bomb {
+    position: relative;
+    top: 7px;
+    width: 35px;
+}
+.body-1 {
+    background-color: rgb(160, 188, 220);
+    text-align: center;
+}
+.jb-large {
+    font-size: large;
+    margin: 2px;
+}
+.jb-medium {
+    font-size: large;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.profile {
+    margin: 10px;
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px gray;
+}
+.github {
+    margin: 10px;
+    width: 30px;
+}
+.insta {
+    margin: 10px;
+    width: 30px;
+}
+.vlog {
+    margin: 10px;
+    width: 30px;
+}
+.body-2 {
+    background-color: white;
+    padding-top: 10px;
+}
+.body-2 dt {
+    display: inline-block;
+    margin-bottom: 17px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 70px;
+}
+.body-2 dd {
+    display: inline-block;
+    font-size: 17px;
+}
+.body-2 h2 {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(57, 57, 130);
+    border-bottom: 2px solid rgb(57, 57, 130);
+}
+
+.end {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.stack {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.stack-2 {
+    margin-top: 90px;
+}
+.copy {
+    text-align: center;
+    font-size: 11px;
+    margin: 10px;
+}

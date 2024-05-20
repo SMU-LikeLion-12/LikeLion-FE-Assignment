@@ -1,0 +1,92 @@
+span {
+    color: darkblue;
+}
+.all {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+}
+.img1 {
+    height: 1em;
+}
+.img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: white;
+    border-style: hidden;
+    box-shadow: 
+        5px 0 10px rgba(0, 0, 0, 0.1),
+        -5px 0 10px rgba(0, 0, 0, 0.1), 
+        0 10px 15px rgba(0, 0, 0, 0.3); 
+}
+.top {
+    display: inline-block;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.middle {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    padding-top: 25px;
+    width: calc(100% - 0.1px);
+    margin-left: -9.9px;
+}
+.small {
+    color: grey;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+hr {
+    color: darkblue;
+    margin: -22px 2.5px;
+}
+.bottom {
+    background-color: white;
+    line-height: 0.8;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px; 
+}
+.copy{
+    text-align: center;
+    color: grey;
+    letter-spacing: -1px;
+}
+.last{
+    background-color: lightblue;
+    line-height: 1.6;
+    padding-top: 5px; 
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px; 
+    width: calc(100% - 90px);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+.stack{
+    color: white;
+}
+.word-box {
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: 15px;
+    margin: 2px 1%;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px; 
+    background-color: white;
+    border-radius: 6px;
+    border-style: hidden;
+    color: darkblue;
+}

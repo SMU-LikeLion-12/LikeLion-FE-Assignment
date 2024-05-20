@@ -1,0 +1,15 @@
+.inform {
+    text-align: center;
+    padding: 60px;
+}
+
+.inform-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.inform-sub {
+    color: rgba(161, 161, 161, 0.783);
+    font-size: 15px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to 멋사톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:41</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too bigㅜㅜ</span>
+    </div>
+
+    <header class = "header-friend">
+      <h1 class="header-friend_title">Friends</h1>
+      <div class="header-friend_icon">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-music"></i></span>
+      </div>
+    </header>
+
+    <form action="index.html" id="back">
+      <a><i class="fa-solid fa-circle-info"></i>
+      <input type="submit" value="로그인 화면으로 돌아가기">
+      <i class="fa-regular fa-chevron-right"></i></a>
+    </form>
+
+    <main class="friends-center">
+
+      <div class="myself-img">
+        <span class="ft-img"><i class="fa-solid fa-user-tie fa-4x"></i></span>
+        <span class="ft-name">SangChun</span>
+      </div>
+
+      <div class="friends-center_middle">
+        <div class="friends-center_middle_hd">
+        <span>Channel</span><i class="fa-regular fa-chevron-up"></i>
+        </div>
+      
+        <div class="friends-center_user">
+          <div class="friends-center_user_block">
+          <i class="fa-solid fa-user-tie fa-3x"></i>
+            <div class="friends-center_user_text">
+              <h3 class="friends-center_user_name">Lee</h3>
+            </div>
+          </div> 
+          <div class="friends-center_user_etc">
+            <span>2<i class="fa-light fa-greater-than"></i></span>
+          </div>
+        </div>
+       </div> 
+    </main>
+
+    <nav class="nav">
+      <ul class="splash-nav">
+        <li class="nav_btn"><a class="nav_btn_ft" href="friends.html"><i class="fa-regular fa-user"></i></a></li>
+        <li class="nav_btn"><a class="nav_btn_ft" href="chats.html"><span class="nav_circle1">1</span><i class="fa-regular fa-comment"></i></a></li>
+        <li class="nav_btn"><a class="nav_btn_ft"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+        <li class="nav_btn"><a class="nav_btn_ft"><span class="nav_circle2"></span><i class="fa-solid fa-ellipsis"></i></a></li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment fa-2x"></i>
+    </div>
+
+    <script src="https://kit.fontawesome.com/72f07bc14e.js" crossorigin="anonymous"></script>
+  </body>
+</html>

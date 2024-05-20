@@ -1,0 +1,72 @@
+#footer {
+    position: fixed;
+    background-color: rgba(211, 211, 211, 0.249);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+}
+
+#footer .badge {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  background-color: red;
+  width: auto;
+  padding: 3px 5px 3px 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  animation: badge-animation 0.7s 0.1s ease-in alternate-reverse infinite;
+}
+
+#footer .icon-badge {
+  position: relative;
+}
+
+#footer .icon1 {
+  position: relative;
+  animation: icon-animation 0.2s ease-in alternate;
+}
+
+#footer .icon2 {
+  position: relative;
+  animation: icon-animation 0.2s 0.1s ease-in alternate;
+}
+
+#footer .icon3 {
+  position: relative;
+  animation: icon-animation 0.2s 0.2s ease-in alternate;
+}
+
+#footer .icon4 {
+  position: relative;
+  animation: icon-animation 0.2s 0.3s ease-in alternate;
+}
+
+
+@keyframes icon-animation {
+  from {
+    font-size: 24px;
+    top: 8px
+
+  }
+  to {
+    font-size: 28px;
+    top: 0px
+    }
+}
+
+@keyframes badge-animation {
+  from {
+    top: 3px
+
+  }
+  to {
+    top: 0px
+    }
+}

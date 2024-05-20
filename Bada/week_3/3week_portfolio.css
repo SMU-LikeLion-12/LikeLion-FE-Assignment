@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+.frame {
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+}
+.title {
+    margin-left: 10px;
+    color: blue;
+}
+.title img {
+    width: 0.8em;
+    height: 0.8em;
+}
+.profileBox {
+    background-color: #afbbda;
+    text-align: center;
+    padding: 15px;
+}
+.userImage {
+    border: 3px solid gray;
+    background-color: white;
+    border-radius: 20px;
+    width: 170px;
+    height: 170px;
+}
+span {
+    color: gray
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.information {
+    width: 600px;
+    margin-left: 100px;
+    color: blue;
+}
+.information p {
+    color: black;
+    margin-left: 20px;
+}
+.information hr {
+    border: 1px solid blue;
+}
+.stackBox {
+    background-color: #afbbda;
+}
+.stack {
+    background-color: #afbbda;
+    width: 600px;
+    margin-left: 100px;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.stack hr {
+    border: 1px solid white;
+}
+.stack span {
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+}
+.copyright {
+    text-align: center;
+}

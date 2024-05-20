@@ -1,0 +1,14 @@
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: #fa4e4f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  color: white;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: normal;
+}

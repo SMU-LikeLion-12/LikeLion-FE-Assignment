@@ -1,0 +1,62 @@
+.top-hd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.title-hd{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.icon-hd span{
+    margin-left:  10px;
+    margin-right: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-sc:first-child{
+    display: flex;
+    align-items: center;
+}
+.img-star{
+    width:70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.name-sc{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-sc{
+    font-size: 15px;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+.time-sc{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.circle3{
+    position: absolute;
+    border-radius:50%;
+    background-color: red;
+    color: white;
+    width:12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-left: 13px;
+}

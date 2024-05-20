@@ -1,0 +1,27 @@
+@keyframes appearBtn {
+  from {
+    transform: translateY(90px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.icon-row__list li {
+  transform: translateY(90px);
+  opacity: 0;
+  animation: appearBtn 0.4s ease-in-out forwards;
+}
+
+.icon-row__list li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.icon-row__list li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.icon-row__list li:last-child {
+  animation-delay: 0.3s;
+}

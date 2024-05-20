@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./4practice.css" />
+        <style>
+            @keyframes ball {
+                from {
+                    width: 180px;
+                    background-color: green;
+                }
+                to {
+                    top: 500px;
+                    width: 180px;
+                    height: 180px;
+                    background-color: blueviolet;
+                }
+            }
+
+            div {
+                position: relative;
+                left: 100px;
+                top: 0;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background: #000;
+                animation: ball 1s ease-in Infinite Alternate;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

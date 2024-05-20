@@ -1,0 +1,147 @@
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.todolist {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.todo_top {
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background-color: mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.title_line span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todo_badge {
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_middle {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    background-color: darkcyan;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.todo_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: mediumaquamarine;
+    position: relative;
+}
+
+.plus_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.plus_button i{
+    color: skyblue;
+    font-size: 50px;
+}
+
+.input_box {
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    transition: opacity 0.5s ease-in-out; /* 천천히 나타나도록 설정 */
+}
+
+.todo_chart {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.checkbox{
+    width: 24px; /* 너비 조정 */
+    height: 24px; /* 높이 조정 */
+    margin-right: 10px;
+}
+
+.todo_chart i{
+    margin-left: auto;
+    color: red;
+}
+
+.checkbox:checked + .todo_text {
+    text-decoration: line-through;
+    color: gray; 
+}
+
+
+/* plus_button에 hover 효과 추가 */
+.todo_bottom i:hover i {
+    opacity: 0; /* 플러스 아이콘 사라지게 함 */
+}
+
+.todo_bottom:hover + .input_box {
+    width: 200px; /* 확장될 너비 설정 */
+    opacity: 1; /* 나타나게 함 */
+}

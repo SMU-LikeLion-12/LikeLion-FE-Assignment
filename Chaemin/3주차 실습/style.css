@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container1 {
+  background-color: lightblue;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+.container2 {
+  background-color: darkgray;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+#img {
+  width: 35px;
+  height: 35px;
+  margin: 5px 15px;
+}
+
+#lion {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.container3 {
+  border: 10px solid white;
+  margin-top: 10px;
+}

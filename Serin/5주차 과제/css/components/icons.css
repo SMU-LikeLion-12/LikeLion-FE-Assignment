@@ -1,0 +1,50 @@
+.icons_row_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.icons_row_list li {
+    font-size: 30px;
+}
+
+@keyframes badge1 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-3px);
+    }
+}
+
+.icons_row_badge1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    float: right;
+    animation: badge1 1s infinite alternate;
+}
+
+.icons_row_badge2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 25px;
+    top: 5px;
+}

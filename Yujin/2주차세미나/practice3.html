@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습3</title>
+</head>
+<style>
+    #submit_btn{
+        width: 150px;
+        padding: 20px;
+        border-radius: 10%;
+        background-color: aquamarine;
+        color: white;
+    }
+</style>
+<body>
+    <form action="">
+        <p>아이디:
+            <input type="text" placeholder="아이디">
+        </p>
+        <p>비밀번호:
+            <input type="password" name="" id="" placeholder="비밀번호">
+        </p>
+        
+        <table>
+            <tr>성별</tr>
+            <td>
+                <label for="male">남성</label>
+                <input type="radio" name="male" id="male">
+            </td>
+            <td>
+                <label for="female">여성</label>
+                <input type="radio" name="male" id="female">
+            </td>
+        </table>
+        <table>
+            <tr>취미</tr>
+            <td>
+                <label for="soccer">축구</label>
+                <input type="checkbox" name="hobby" value="soccer" id="soccer">
+            </td>
+            <td>
+                <label for="baseball">야구</label>
+                <input type="checkbox" name="hobby" value="baseball" id="baseball">
+            </td>
+            <td>
+                <label for="drawing">그림</label>
+                <input type="checkbox" name="hobby" value="drawing" id="drawing">
+            </td>
+        </table>
+        <input type="submit" value="제출" id="submit_btn">
+    </form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+.header span{
+    color: navy;
+    font-size: 35px;
+    line-height: 10px;
+    padding: 5px 10px;
+    height: 10px;
+}
+
+#iconimage{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+#box_radius{
+    border-radius: 20%;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.header{
+    padding: 5px;
+}
+
+.middle{
+    background-color: #9999FF;
+    padding: 30px;
+    text-align: center;
+}
+
+.middle_content{
+    height: 320px;
+    padding: 0px 50px 100px 50px;
+}
+
+.bottom{
+    background-color: #9999FF;
+    height: 120px;
+    padding: 1px 50px 100px 50px;
+}
+
+.bottom h3{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.content_title{
+    color: navy;
+}
+
+.middle_content h3{
+    border-bottom: 2px solid navy;
+}
+
+.middle_content p{
+    font-size: 15px;
+}
+
+tr{
+    font-size: 15px;
+}
+
+footer{
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+}
+
+#profileimage{
+    box-sizing: border-box;
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkimage{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.small_box{
+    box-sizing: border-box;
+    border-radius: 10%;
+    padding: 3px;
+    width: auto;
+    margin-top: 0px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.small_box span{
+    font-size: 15px;
+    color: navy;
+}
