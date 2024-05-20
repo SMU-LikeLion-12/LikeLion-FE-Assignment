@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="todo-top">
+        <span>TODO List</span>
+        <span id="todo-count" class="count-circle">0</span>
+      </div>
+      <ul id="todo-list"></ul>
+
+      <form id="todo-form">
+        <button class="list-add">
+          <i class="fa-solid fa-square-plus"></i>
+        </button>
+        <input type="text" id="todo-input" required />
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/72f07bc14e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Todo.js"></script>
+  </body>
+</html>
