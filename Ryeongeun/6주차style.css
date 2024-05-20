@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    background-color: rgb(39, 39, 62);
+    font-family: sans-serif;
+    background-size: auto;
+}
+
+.main {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    border-bottom: #fff 2px solid;
+}
+form {
+    background-color: #fff;
+    padding: 10px;
+}
+input[type='text'] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 24.5px;
+    background: #fff;
+    color: #343434;
+}
+
+#todo-submit {
+    font-size: 24.5px;
+    background-color: #2ebc4f;
+    outline: 0;
+    border-radius: 4px;
+    border: none;
+    width: 70px;
+}
+.tasksBoard {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+}
+
+p {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0px;
+    font-size: 24.5px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.delete {
+    background-color: #fff;
+    display: flex;
+    color: tomato;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+@keyframes hideSplashIcon {
+    from {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+#splash-icon {
+    background-color: rgb(39, 39, 62);
+    color: #ffff;
+    font-size: 27px;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 90px;
+    cursor: pointer;
+}
+
+.hidden {
+    animation: hideSplashIcon 5s forwards;
+}
+
+#task-count {
+    display: flex;
+    color: white;
+    justify-content: right;
+    font-size: 20px;
+    margin-top: -10px;
+}

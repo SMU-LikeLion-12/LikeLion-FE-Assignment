@@ -1,6 +1,7 @@
 .user-component,
 .user-component_column:first-child {
     display: flex;
+    width: 100%;
     align-items: center;
 }
 
@@ -20,12 +21,8 @@
     font-size: 15px;
     color: gray;
 }
-.user-component_subtext {
-    display: flex;
-    justify-content: space-between;
-}
 
-.user-component_column:last-child {
+.user-component_title2 .user-component_column:last-child {
     color: rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
