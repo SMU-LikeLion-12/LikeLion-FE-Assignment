@@ -7,16 +7,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Footer에 hover 효과 추가
     const footer = document.querySelector("footer");
-    footer.addEventListener("mouseenter", function() {
-        plusBtn.style.display = "none" // 플러스 버튼 숨기기
-        todoInput.style.display = "block"  // 입력 필드 보이기
+    footer.addEventListener("mouseover", function() {
+        plusBtn.style.display = "none"; // 플러스 버튼 숨기기
+        todoInput.style.display = "block";  // 입력 필드 보이기
     });
 
-    footer.addEventListener("mouseleave", function() {
-        plusBtn.style.display = "block" // 플러스 버튼 보이기
-        todoInput.style.display = "none"  // 입력 필드 숨기기
+    todoInput.addEventListener("mouseout", function() {
+        todoInput.style.animation = "text_reverse 0.5s linear";
+        setTimeout(function() {
+            todoInput.style.display = "none" ; // 입력 필드 숨기기
+            todoInput.style.animation = "";
+            plusBtn.style.display = "block";
+        }, 500);
+        
     });
-
+    // input창 애니메이션
+    
     // Enter 키 입력 시 새로운 할 일 항목 추가
     todoInput.addEventListener("keypress", function(event) {
         if (event.key === "Enter") {  // Enter 키가 눌렸을 때
