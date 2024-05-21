@@ -1,0 +1,107 @@
+/* whole */
+body {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.whole {
+    width: 400px;
+}
+/* top */
+.top {
+    display: flex;
+    background-color: rgb(70, 69, 69);
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 15px 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top_title {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.check_num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(188, 185, 185);
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 40px;
+}
+
+/* middle */
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    height: 350px;
+    overflow-y: auto;
+}
+
+.todo_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.list_name {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.delete_btn {
+    color: rgb(186, 2, 2);
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+/* bottom */
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(70, 69, 69);
+    border-radius: 0 0 20px 20px;
+    padding: 10px 0;
+}
+
+.plus_btn {
+    color: rgb(120, 120, 143);
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.todo_content {
+    display: none;
+    width: 250px;
+}
+
+.bottom:hover.plus_btn {
+    visibility: hidden;
+}
+
+.bottom:hover.todo_content {
+    display: block;
+}
